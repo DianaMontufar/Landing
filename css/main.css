@@ -1,0 +1,72 @@
+*{
+	font-family: "Open Sans";
+}
+
+/*--------------------------HEADER--------------------------*/
+.nav-head{
+	float: right;
+}
+.col-6 img {
+	width: 100px;
+}
+
+/**************************SECTION:BG-GREY-----------------------*/
+
+.bg-grey{
+	background: #808080;
+}
+.h1-font{
+	font-size:50px; 
+}
+.p-font{
+	font-size: 13px;
+}
+section .form {
+	background-color: #999A9A;
+	border-radius: 8px;
+	padding: 20px 0;
+}
+section input, section .btn-form {
+	height: 30px;
+	margin: 5px 0;
+	width: 90%;
+}
+section .btn-form {
+	background-color: #3DB0F7;
+	border-style: none;
+	color: white;
+	padding: 5px 0;
+}
+section .btn-form:hover {
+	background-color: black;
+	cursor: pointer;
+}
+/*--------------------MEDIA QUERY--------------------------*/
+@media screen and (min-width: 535px){
+	.container{
+    	width: 85%;
+    }
+	.col-8 {
+		width: 66.666667%;
+	}
+	.col-4 {
+		width: 33.333333%;
+	}
+}
+@media screen and (max-width: 535px) {
+    .container{
+    	width: 90%;
+    }
+    .col-8, .col-4{
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 535px) {
+    .form{
+    	margin-bottom: 50px;
+    	margin-top: 0;
+    }
+    .a-responsive{
+    	margin-right: 5px;
+    }
+}
